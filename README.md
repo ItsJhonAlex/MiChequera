@@ -1,4 +1,4 @@
-# MyPecuny
+# Mi Chequera
 
 Aplicación móvil para la gestión de finanzas personales con categorización avanzada y asistencia mediante IA.
 
@@ -6,7 +6,7 @@ Aplicación móvil para la gestión de finanzas personales con categorización a
 
 ## 🚀 Descripción
 
-MyPecuny te ayuda a llevar el control de tus finanzas personales, categorizando ingresos y gastos, y ofreciéndote recomendaciones inteligentes gracias a la integración con IA (Google Gemini).
+Mi Chequera te ayuda a llevar el control de tus finanzas personales, categorizando ingresos y gastos, y ofreciéndote recomendaciones inteligentes gracias a la integración con IA (Google Gemini).
 
 ---
 
@@ -100,4 +100,4 @@ MIT
 
 ## 👩‍💻 Créditos
 
-Desarrollado por el equipo MyPecuny.
+Desarrollado por el equipo Mi Chequera.
