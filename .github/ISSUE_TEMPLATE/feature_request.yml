@@ -1,0 +1,41 @@
+name: Solicitud de Feature
+description: Sugiere una nueva funcionalidad o mejora para la app.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ¡Gracias por tu interés en mejorar FinSmart! Cuéntanos tu idea:
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: ¿Qué funcionalidad te gustaría?
+      description: Explica la nueva funcionalidad o mejora.
+      placeholder: Me gustaría poder exportar mis reportes a PDF...
+    validations:
+      required: true
+  - type: textarea
+    id: valor
+    attributes:
+      label: ¿Por qué es valiosa?
+      description: ¿Cómo ayudaría esto a los usuarios?
+      placeholder: Facilitaría compartir mis finanzas con mi asesor...
+    validations:
+      required: true
+  - type: textarea
+    id: alternativas
+    attributes:
+      label: Alternativas consideradas
+      description: ¿Has pensado en otras formas de resolverlo?
+      placeholder: También podría ser útil exportar a Excel...
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Código de Conducta
+      description: Al enviar este issue, aceptas seguir nuestro Código de Conducta.
+      options:
+        - label: Confirmo que he leído y acepto el Código de Conducta del proyecto.
+          required: true

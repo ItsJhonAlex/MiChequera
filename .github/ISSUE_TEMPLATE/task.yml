@@ -1,0 +1,33 @@
+name: Tarea / Mejora Técnica
+description: Propón una tarea técnica, refactorización o mejora no funcional.
+title: "[Task]: "
+labels: ["task", "refactor"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ¿Detectaste una tarea técnica o mejora? ¡Cuéntanos!
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: Descripción de la tarea
+      description: Explica la tarea o mejora técnica.
+      placeholder: Refactorizar el módulo de autenticación para mayor claridad...
+    validations:
+      required: true
+  - type: textarea
+    id: justificacion
+    attributes:
+      label: Justificación
+      description: ¿Por qué es importante esta tarea?
+      placeholder: Mejorará la mantenibilidad y facilitará futuras integraciones...
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Código de Conducta
+      description: Al enviar este issue, aceptas seguir nuestro Código de Conducta.
+      options:
+        - label: Confirmo que he leído y acepto el Código de Conducta del proyecto.
+          required: true

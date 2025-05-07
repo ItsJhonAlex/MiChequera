@@ -1,0 +1,57 @@
+name: Reporte de Bug
+description: Reporta un error o comportamiento inesperado en la app.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ¡Gracias por ayudarnos a mejorar FinSmart! Por favor, completa la siguiente información para que podamos reproducir y solucionar el problema.
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: ¿Qué ocurrió?
+      description: Describe el bug y qué esperabas que sucediera.
+      placeholder: El botón de guardar no responde...
+    validations:
+      required: true
+  - type: textarea
+    id: pasos
+    attributes:
+      label: Pasos para reproducir
+      description: Indica los pasos para reproducir el error.
+      placeholder: 1. Ir a... 2. Hacer clic en...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Versión de la app
+      description: ¿Qué versión de la app usas?
+      placeholder: v1.0.0
+    validations:
+      required: true
+  - type: dropdown
+    id: plataforma
+    attributes:
+      label: Plataforma
+      options:
+        - Android
+        - iOS
+        - Ambos
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs relevantes
+      description: Adjunta logs o mensajes de error si es posible.
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Código de Conducta
+      description: Al enviar este issue, aceptas seguir nuestro Código de Conducta.
+      options:
+        - label: Confirmo que he leído y acepto el Código de Conducta del proyecto.
+          required: true

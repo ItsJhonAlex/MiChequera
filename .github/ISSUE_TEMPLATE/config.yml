@@ -1,0 +1,7 @@
+# Este archivo configura el selector de plantillas de issues para GitHub.
+# No es una plantilla de issue, por eso no requiere name, description ni body.
+blank_issues_enabled: false
+contact_links:
+  - name: Soporte de la comunidad
+    url: https://github.com/tu_usuario/FinSmart/discussions
+    about: Pregunta o discute aquí temas generales del proyecto.
