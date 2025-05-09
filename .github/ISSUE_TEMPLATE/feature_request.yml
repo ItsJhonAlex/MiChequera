@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ¡Gracias por tu interés en mejorar FinSmart! Cuéntanos tu idea:
+        ¡Gracias por tu interés en mejorar Mi Chequera! Cuéntanos tu idea:
   - type: textarea
     id: descripcion
     attributes:

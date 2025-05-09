@@ -1,6 +1,6 @@
-# 🗺️ Roadmap de MyPecuny
+# 🗺️ Roadmap de Mi Chequera
 
-Este roadmap describe las etapas clave para el desarrollo de MyPecuny, priorizando la entrega de valor rápido y la escalabilidad futura.
+Este roadmap describe las etapas clave para el desarrollo de Mi Chequera, priorizando la entrega de valor rápido y la escalabilidad futura.
 
 ---
 

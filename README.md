@@ -52,8 +52,8 @@ El proyecto sigue el patrón de Clean Architecture, separando responsabilidades 
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/mypecuny.git
-   cd mypecuny
+   git clone https://github.com/ItsJhonAlex/michequera.git
+   cd michequera
    ```
 
 2. Instala dependencias:
